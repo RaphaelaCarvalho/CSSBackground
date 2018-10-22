@@ -1,0 +1,29 @@
+h1 
+{   
+    color: rgba(0,200,100,0.8);
+    border-color: purple;
+    border-width: 5px;
+    border-style: solid;
+
+/* or use 
+border: 5px solid purple;
+instead, is the same */
+}
+/*width, color & style must be set together*/
+
+h4 
+{
+    backgroung: rgb(255,100,80);
+}
+body 
+{
+    background: pink;
+    /* background made with a picture in an URL
+    background: url(http://.....)
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    without the no-repeat command, it'd repeat 
+    and the cover command stretches the picture to occupy full size*/
+
+}
